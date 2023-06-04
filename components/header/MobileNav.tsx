@@ -8,7 +8,7 @@ const MobileNav = () => {
 
   return (
     <div
-      className={`grid place-content-center lg:hidden z-[1000] bg-white fixed left-0 w-[100vw] h-[100vh] top-0 bottom-0 right-0  overflow-hidden`}
+      className={`grid place-content-center lg:hidden z-[100] bg-white fixed left-0 w-full h-screen top-0 right-0 box-border overflow-hidden`}
     >
       <FiX
         className="w-[30px] h-[30px] lg:hidden text-red-500 absolute right-4 top-4 cursor-pointer"
@@ -17,7 +17,7 @@ const MobileNav = () => {
         }}
       />
       <ul
-        className="flex flex-col justify-center gap-5"
+        className="flex flex-col justify-center gap-5 "
         style={{ fontFamily: "var( --font-family)" }}
       >
         {navList.slice(0, -1).map((list) => (
@@ -37,7 +37,7 @@ const MobileNav = () => {
       <a
         href={`#${navList[navList.length - 1].href}`}
         className=" py-[1rem] bg-[#121B4A] text-white rounded-md hover:opacity-90 lg:hidden 
-        absolute left-1/2 bottom-8 -translate-x-1/2 w-[80%] text-center text-lg
+        absolute left-1/2 top-[80%] -translate-x-1/2 w-[80%] text-center text-lg
         "
         onClick={() => setOpenNav(false)}
       >

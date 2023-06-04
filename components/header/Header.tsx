@@ -23,13 +23,13 @@ const Header = () => {
       {openNav && <MobileNav />}
 
       <div className="container">
-        <div className="flex justify-between items-center h-[10vh] ">
+        <div className="flex justify-between items-center h-[100px] ">
           <Image
             width={100}
             height={50}
             alt="a&g logo"
             src={"/assets/logo-new.png"}
-            className="w-[85px]"
+            className="w-[60px]"
             onClick={() => router.replace("/")}
           />
           <LargeScreenNav />

@@ -11,16 +11,8 @@ import useStore from "@/utils/store";
 import { useEffect } from "react";
 
 export default function Home() {
-  const openNav = useStore((state) => state.showMobileNav);
-  const setOpenNav = useStore((state) => state.setShowMobileNav);
-
-  // useEffect(() => {
-  //   const screenWidth = window.innerWidth;
-  //   screenWidth > 1024 && setOpenNav(false);
-  // }, [window.innerWidth]);
-
   return (
-    <div className="">
+    <div className="w-full overflow-x-hidden">
       <div className="">
         <header className="" id="home">
           <Header />

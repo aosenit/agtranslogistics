@@ -29,7 +29,7 @@ const Footer = () => {
               height={50}
               alt="a&g logo"
               src={"/assets/logo-new.png"}
-              className="w-[85px]"
+              className="w-[60px]"
             />
 
             <h5 className="text-[16px] font-[500] text-[var(--gray-color)]">
