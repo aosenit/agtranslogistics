@@ -58,8 +58,8 @@ const Footer = () => {
             <a href="#services" className="hover:text-white transition-colors">
               Our Services
             </a>
-            <a href="#" className="hover:text-white transition-colors">
-              What we stand for!
+            <a href="#project" className="hover:text-white transition-colors">
+              Projects
             </a>
             <a
               href="#testimonial"
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
 
         <h6 className="text-[16px] font-[500] text-[var(--gray-color)]">
-          © 2023 A & G Transport and Logistics Limited. All rights reserved.
+          © 2023 A&G Transport and Logistics Limited. All rights reserved.
         </h6>
       </div>
     </section>

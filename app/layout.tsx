@@ -2,7 +2,10 @@ import "./globals.css";
 
 export const metadata = {
   title: "A&G Logistics",
-  description: "A Nigerian Based Houlage Company",
+  description: "A Nigerian Based Haulage Company",
+  icons: {
+    icon: "/assets/logo-new.png",
+  },
 };
 
 export default function RootLayout({

@@ -7,8 +7,6 @@ import MobileNav from "@/components/header/MobileNav";
 import Project from "@/components/projects/Project";
 import Service from "@/components/services/Service";
 import Testimonial from "@/components/testimonials/Testimonial";
-import useStore from "@/utils/store";
-import { useEffect } from "react";
 
 export default function Home() {
   return (

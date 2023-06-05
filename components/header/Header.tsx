@@ -53,7 +53,7 @@ const Header = () => {
           >
             <h1 className="relative font-[300] text-[30px] lg:text-[46px] lg:font-[600] ">
               <span>
-                Logistics, Haulage, even Fleet Management - Handled with Class
+                Logistics, Haulage, and Fleet Management - Handled with Class
               </span>
               <span className="hidden lg:inline absolute right-8 top-3 ">
                 <StarIcon />

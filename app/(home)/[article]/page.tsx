@@ -22,7 +22,7 @@ const page = ({ params }: any) => {
           height={50}
           alt="a&g logo"
           src={"/assets/logo-new.png"}
-          className="w-[85px]"
+          className="w-[60px]"
           onClick={() => router.replace("/")}
         />
       </div>
@@ -41,9 +41,9 @@ const page = ({ params }: any) => {
           <p className="text-base text-[var(--gray-color)]">
             {articlesData[params.article - 1]?.content}
           </p>
-          <button className=" bg-white text-black hover:opacity-90 transition border-[1px] border-[black] py-[.7rem] rounded-[10px] lg:w-fit px-[2rem] lg:ml-auto">
+          {/* <button className=" bg-white text-black hover:opacity-90 transition border-[1px] border-[black] py-[.7rem] rounded-[10px] lg:w-fit px-[2rem] lg:ml-auto">
             Interact with Topic
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
