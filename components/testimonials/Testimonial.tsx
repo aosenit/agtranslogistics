@@ -6,10 +6,10 @@ import { testimonials } from "./data";
 
 const srcArray = [
   "/assets/testimonial-img-1.png",
-  "/assets/testimonial-img-2.png",
-  "/assets/testimonial-img-3.png",
-  "/assets/testimonial-img-4.png",
-  "/assets/testimonial-img-5.png",
+  // "/assets/testimonial-img-2.png",
+  // "/assets/testimonial-img-3.png",
+  // "/assets/testimonial-img-4.png",
+  // "/assets/testimonial-img-5.png",
 ];
 
 const Testimonial = () => {
@@ -51,14 +51,14 @@ const Testimonial = () => {
 
         <div className="lg:flex justify-between items-center lg:my-[30px]">
           <div className="flex flex-col gap-1 px-8">
-            <h5
+            {/* <h5
               className="text-[18px] font-[600] "
               data-aos="fade-right"
               data-aos-delay="180"
             >
               {" "}
               {testimonials[index].name}
-            </h5>
+            </h5> */}
             <p
               className="text-[16px] font-[400] text-[var(--gray-color)]"
               data-aos="fade-left"
